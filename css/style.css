@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.img-animate{
+    overflow: hidden;
+    transition: 1s;
+}
+.img-animate{
+    transition: 1s;
+}
+.mycard:hover .img-animate img{
+    transform: scale(0.9);
+    transition: 1s;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.difcard{
+    width: 75% !important;
+    margin: 0 auto;
+    
+}
+.ownwidth{
+    width: 50%;
+}
+@media (max-width:970px){
+    .difcard{
+        width: 100% !important;
+    }
+    .ownwidth{
+        width: 100%;
+    }
+}
+
+
+.a_hover:hover{
+    color: blue;
+    transition: 1s;
+
+}
+@media (max-width:870px){
+    .media_carousel{
+        margin-bottom: 0;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:570px){
+    .media_wrap{
+        margin-top: 100px;
+    }
+    .difcard{
+        margin-bottom: 50px !important;
+        
+    }
+}
